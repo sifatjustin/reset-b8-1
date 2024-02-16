@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.middle_img img {
+    padding: 20px;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+
+.container {
+    background-color: #ffffff;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.new_year {
+
+
+    background: url(./resources/Banner\ Image.png) rgba(65, 62, 63, 0.3);
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 600px;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+.new_year p,
+h1 {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.new_year p {
+    font-size: 24px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.new_year h1 {
+    font-size: 72px;
+}
+
+
+.off_section {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.off_text {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.off_text h1,
+p,
+h2 {
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.off_text h1 {
+    font-size: 88px;
+    color: #ff0000;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.off_text p {
+    font-size: 24px;
+    color: #ff0000;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+.off_text h2 {
+    font-size: 48px;
+    color: #070211;
+    padding: 15px 0px 40px 0px;
+    font-weight: bold;
+}
+
+
+.img {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midnight_party {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.midnight {
+
+
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+        to right,
+      rgba(0, 0, 0, 0.45), 
+      rgba(38, 32, 32, 0.45)
+    ),
+    /* bottom, image */
+    url(./resources/Vectorrr.png);
+
+    /* background: url(./resources/Vectorrr.png) rgba(17, 16, 17, 0.3);
+    background-size: cover;
+    background-blend-mode: multiply; */
+  
+    background-size: cover;
+    height: 600px;
+    margin: 50px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.midnight h1{
+    color: #ffffff;
+    font-size: 64px;
+    text-align: start;
+}
+.midnight p{
+    color: #efe8e8;
+    font-size: 18px;
+    text-align: start;
+    padding-left: 20px;
+}
+.midnight .text{
+    padding: 150px 0px 150px 100px;
+}
+
+
+.portfolio_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

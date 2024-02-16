@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 
-.middle_img img {
-    padding: 20px;
-    border-radius: 50%;
-    border: 10px solid red;
-}
 
+
+
+/* HEADER SECTION STARTS */
 
 .container {
     background-color: #ffffff;
@@ -19,8 +17,10 @@
 
 .new_year {
 
+    border-radius: 16px;
 
-    background: url(./resources/Banner\ Image.png) rgba(65, 62, 63, 0.3);
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./resources/Banner\ Image.png);
+    /* background:  rgba(65, 62, 63, 0.3); */
     background-size: cover;
     background-blend-mode: multiply;
     height: 600px;
@@ -28,22 +28,37 @@
     border-radius: 10px;
 }
 
-.new_year p,
+/* .new_year p,
 h1 {
     text-align: center;
     color: #ffffff;
 
-}
+} */
+
+
 
 .new_year p {
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
     padding-top: 200px;
-    padding-bottom: 20px;
 }
 
 .new_year h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
     font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
 }
+
+/* HEADER SECTION ENDS */
 
 
 .off_section {
@@ -56,32 +71,45 @@ h1 {
     margin: 0 auto;
 }
 
-.off_text h1,
+/* .off_text h1,
 p,
 h2 {
     text-align: center;
     letter-spacing: normal;
-}
+} */
 
 .off_text h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
     font-size: 88px;
-    color: #ff0000;
-    padding: 10px 0px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 40px 0px;
 }
 
 .off_text p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
     font-size: 24px;
-    color: #ff0000;
-    padding: 20px 0px;
-    font-weight: 600;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 0px;
 }
 
 .off_text h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
     font-size: 48px;
-    color: #070211;
-    padding: 15px 0px 40px 0px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 0px;
+
 }
 
 
@@ -93,6 +121,11 @@ h2 {
     justify-content: center;
 }
 
+
+
+/* midnight party section starts here */
+
+
 .midnight_party {
     width: 1320px;
     margin: 0 auto;
@@ -101,20 +134,14 @@ h2 {
 .midnight {
 
 
-    background: 
-    /* top, transparent red */ 
-    linear-gradient(
-        to right,
-      rgba(0, 0, 0, 0.45), 
-      rgba(38, 32, 32, 0.45)
-    ),
-    /* bottom, image */
-    url(./resources/Vectorrr.png);
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./resources/Vectorrr.png);
 
     /* background: url(./resources/Vectorrr.png) rgba(17, 16, 17, 0.3);
     background-size: cover;
     background-blend-mode: multiply; */
-  
+
     background-size: cover;
     height: 600px;
     margin: 50px 0px;
@@ -124,21 +151,186 @@ h2 {
     gap: 150px;
 }
 
-.midnight h1{
-    color: #ffffff;
+.midnight h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
     font-size: 64px;
-    text-align: start;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
 }
-.midnight p{
-    color: #efe8e8;
+
+.midnight p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
     font-size: 18px;
-    text-align: start;
-    padding-left: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    padding: 10px 0px 0px 25px;
 }
-.midnight .text{
+
+.midnight .btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+    padding: 30px 0px 0px 40px;
+
+}
+
+.midnight_img img {
+    position: relative;
+    width: 343.16px;
+    height: 455.65px;
+    left: -35%;
+    right: 0%;
+    top: 12%;
+    bottom: 18%;
+}
+
+.midnight .text {
     padding: 150px 0px 150px 100px;
 }
 
+
+/* midnight section ends */
+
+
+
+/* optional one starts */
+
+.coming_soon {
+    /* Group 48 */
+    width: 1320px;
+    height: 463px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.best_offer h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: start;
+    padding-bottom: 18px;
+}
+
+.best_offer h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.best_offer p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.middle_img img {
+    padding: 20px;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+
+
+.happy_year h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.happy_year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.happy_year img {
+    padding-top: 40px;
+}
+
+
+/* portfolio section starts  */
+
+
+.portfolio {
+    width: 1320px;
+    height: 1164px;
+    margin: 100px auto;
+}
+
+.portfolio .text h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+.portfolio .text h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.portfolio .text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 46px;
+
+}
 
 .portfolio_img {
     display: flex;
